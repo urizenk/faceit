@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: TestApplication
+  redis:
+    database: 0
+    host: www.redis.server
+    connect-timeout: 300000ms
+  data:
+    mongodb:
+      host: www.mongodb.server
+      authentication-database: admin
+      port: 27017
+      username: yf
+      password: 123dot
+      database: test

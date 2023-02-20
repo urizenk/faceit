@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="JavaWeb">
+    <output-path>$PROJECT_DIR$/JavaWeb/out/artifacts/JavaWeb</output-path>
+    <root id="archive" name="JavaWeb.war">
+      <element id="archive" name="JavaWeb.jar">
+        <element id="module-output" name="JavaWeb" />
+      </element>
+    </root>
+  </artifact>
+</component>

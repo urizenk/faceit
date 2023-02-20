@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="60.205.183.192" id="b8d28878-eec5-4c72-8f0c-62e51103efea" port="22" customName="root@aliyun-1" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="root@aliyun-1" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="39.106.94.35" id="c12c7e00-16cc-404d-a351-165d9dd165b7" port="22" customName="root@aliyun-2" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="root@aliyun-2" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="39.106.155.58" id="b984eafd-2a3e-4278-ba71-3ae0cb06feae" port="22" customName="root@aliyun-3" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="root@aliyun-3" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="aliyun-4" id="48d2712a-09f5-43fa-b33d-9a6384655653" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig authType="PASSWORD" host="aliyun-5" id="d9ebc144-2a62-41ce-a7f8-63d3c9303708" port="22" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</project>

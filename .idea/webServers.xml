@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="08804f1d-becc-42b5-b050-27ed3adb0cc1" name="node1(项目级别)">
+        <fileTransfer accessType="SFTP" host="node1" port="22" sshConfigId="3e34c4d7-fc5e-44a2-a3c3-e578eff58bd4" sshConfig="root@node1:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7525b5f6-4999-4624-837c-5a612773b29b" name="node2(项目级别)">
+        <fileTransfer accessType="SFTP" host="node2" port="22" sshConfigId="ec60b3a7-7d2d-4075-a6bb-fedb539a2181" sshConfig="root@node2:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1eecdff3-4ecd-40b5-b1b7-d72873d1cdea" name="node3(项目级别)">
+        <fileTransfer accessType="SFTP" host="node3" port="22" sshConfigId="85febfd8-e5fe-4313-bd5e-33b1a7fe247a" sshConfig="root@node3:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="220d5248-6e49-4944-a558-200b88618f65" name="master1(项目级别)">
+        <fileTransfer accessType="SFTP" host="master1" port="22" sshConfigId="8dbda6f1-fcd6-4d12-b864-f689f90d9d9f" sshConfig="root@master1:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f3de1b10-c9c3-44ec-8087-f83e095e0ae5" name="aliyun-1">
+        <fileTransfer accessType="SFTP" host="60.205.183.192" port="22" sshConfigId="b8d28878-eec5-4c72-8f0c-62e51103efea" sshConfig="root@aliyun-1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0cc79973-d2f8-4297-89eb-b40335c5dafb" name="aliyun-2">
+        <fileTransfer accessType="SFTP" host="39.106.94.35" port="22" sshConfigId="c12c7e00-16cc-404d-a351-165d9dd165b7" sshConfig="root@aliyun-2">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="00cad10b-58b2-4c51-9824-fd3388fa1756" name="aliyun-3">
+        <fileTransfer accessType="SFTP" host="39.106.155.58" port="22" sshConfigId="b984eafd-2a3e-4278-ba71-3ae0cb06feae" sshConfig="root@aliyun-3">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b38896e8-3466-482d-b528-95e8ae4677fe" name="aliyun-4">
+        <fileTransfer accessType="SFTP" host="aliyun-4" port="22" sshConfigId="48d2712a-09f5-43fa-b33d-9a6384655653" sshConfig="root@aliyun-4:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="82680646-4e48-4c81-8238-a1058c255494" name="aliyun-5">
+        <fileTransfer accessType="SFTP" host="aliyun-5" port="22" sshConfigId="d9ebc144-2a62-41ce-a7f8-63d3c9303708" sshConfig="root@aliyun-5:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>local(项目级别)</name>
+        <servers>
+          <name value="node1(项目级别)" />
+          <name value="node2(项目级别)" />
+          <name value="node3(项目级别)" />
+          <name value="master1(项目级别)" />
+        </servers>
+      </group>
+      <group>
+        <name>aliyun</name>
+        <servers>
+          <name value="aliyun-1" />
+          <name value="aliyun-2" />
+          <name value="aliyun-3" />
+          <name value="aliyun-4" />
+          <name value="aliyun-5" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

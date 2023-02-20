@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kot.mybatis.mapper.AmountMapper">
+    <update id="insertAmount" >
+        insert into amount values(8,"aby",15,30)
+    </update>
+
+    <update id="updateAmount">
+        update amount set name = "teddy" where id = 4
+    </update>
+
+    <delete id="deleteAmount">
+        delete from amount where id = 8;
+    </delete>
+
+    <select id="getAmountByid" resultType="Amount">
+        select * from amount where id = 3;
+    </select>
+
+    <select id="getAllAmount" resultType="Amount">
+        select * from amount;
+    </select>
+
+    <select id="getAmountByname" resultType="com.kot.mybatis.pojo.Amount">
+        select * from amount where name=#{username}
+    </select>
+
+    <select id="getCount" resultType="int">
+        select count(1) from amount;
+    </select>
+
+    <select id="getAmountByIdToMap" resultType="java.util.Map">
+        select * from amount where id = #{id}
+    </select>
+
+    <select id="getAllAmountToMap" resultType="java.util.Map">
+        select * from amount;
+    </select>
+
+    <delete id="deleteMore">
+        delete from amount where id in (${ids})
+    </delete>
+</mapper>

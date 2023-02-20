@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JavaBasic" />
+        <module name="MQ" />
+        <module name="mybatis" />
+        <module name="SpringCloud" />
+        <module name="SpringMVC" />
+        <module name="Redis" />
+        <module name="Dubbo" />
+        <module name="SpringBoot" />
+        <module name="Spring" />
+        <module name="SSM" />
+        <module name="JavaWeb" />
+        <module name="ES" />
+        <module name="JavaAdvanced" />
+        <module name="ZK" />
+        <module name="Jdbc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aop" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="memTest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Dubbo" options="-parameters" />
+      <module name="ES" options="-parameters" />
+      <module name="JavaAdvanced" options="-parameters" />
+      <module name="JavaBasic" options="-parameters" />
+      <module name="JavaWeb" options="-parameters" />
+      <module name="Jdbc" options="-parameters" />
+      <module name="MQ" options="-parameters" />
+      <module name="Redis" options="-parameters" />
+      <module name="SSM" options="-parameters" />
+      <module name="Spring" options="-parameters" />
+      <module name="SpringBoot" options="-parameters" />
+      <module name="SpringCloud" options="-parameters" />
+      <module name="SpringMVC" options="-parameters" />
+      <module name="ZK" options="-parameters" />
+      <module name="aop" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="memTest" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
+    </option>
+  </component>
+</project>
